@@ -97,7 +97,7 @@ The project successfully demonstrated the application of machine learning techni
 ### Initial Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/nyc-airbnb-analysis.git
+   git clone https://github.com/SaiShirini3/nyc-airbnb-analysis.git
 2. Navigate to the project directory:
    ```bash
    cd nyc-airbnb-analysis
