@@ -21,8 +21,6 @@ Welcome to the "NYC Airbnb Analysis" project repository. This project aims to pr
     - [Initial Setup](#initial-setup)
     - [Running the Flask Application](#running-the-flask-application)
     - [Using the Web Application](#using-the-web-application)
-11. [Contributors](#contributors)
-12. [License](#license)
 
 ## Introduction
 The rise of platforms like Airbnb has significantly transformed the hospitality industry. This project utilizes data analysis and machine learning to predict Airbnb listing prices based on various features. The insights generated can help hosts optimize pricing strategies and enhance the guest experience.
@@ -95,30 +93,25 @@ The project successfully applied machine learning techniques to predict Airbnb l
 ### Initial Setup
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/nyc-airbnb-analysis.git```
+   git clone https://github.com/yourusername/nyc-airbnb-analysis.git
 2. **Navigate to the project directory:**
      ```bash
-   cd nyc-airbnb-analysis```
+   cd nyc-airbnb-analysis
 3. **Install the required packages:**
       ```bash
-   pip install -r requirements.txt```
+   pip install -r requirements.txt
 
 ## Running the Flask Application
 1. **Prepare HTML files:** Ensure all HTML files are in the `templates` folder within the Flask application directory.
 2. **Load the model:** Ensure the Random Forest model pickle file is correctly placed in a known directory.
 3. **Start the Flask application:**
    ```bash
-   python app.py```
+   python app.py
 4. **Access the Application:** Open a web browser and go to `http://localhost:5000` to interact with the app.
 
 ## Using the Web Application
 - **Prediction:** Navigate to the main page, fill out the form with listing details (e.g., neighborhood, room type, minimum nights), and submit to get the predicted price.
 - **Visualization:** Use the tools provided to generate visualizations and explore data patterns and correlations.
 
-## Contributors
-[List of contributors]
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
